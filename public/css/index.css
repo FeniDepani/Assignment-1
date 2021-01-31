@@ -1,0 +1,57 @@
+
+body{
+  background-color: floralwhite;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 600px;
+    border: 1px solid #323232;
+    color: white;
+    background: #976cb7;
+    box-shadow: 0 35px 50px 15px rgba(41,62,64,0.69)
+  }
+  
+  .container:hover a {
+    color: white;
+  }
+  
+  .container-inner-wrapper {
+    padding: 25px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pic {
+    width: 360px;
+    height: 380px;
+    background-image: url('f.jpg');
+  }
+  
+  a {
+    color: white;
+    padding: 7px 15px;
+    text-decoration:none;
+    border: 5px black;
+    border-style: double;
+  }
+  
+  a:hover {
+    background: black;
+  }
+  
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
